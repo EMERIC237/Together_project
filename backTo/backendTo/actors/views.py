@@ -8,7 +8,7 @@ from rest_framework import status
 
 
 @api_view(['GET', 'POST'])
-def actor_list(request):
+def actor_list(request, format=None):
     """
     List all actor, or create a new actor
     """
@@ -25,7 +25,7 @@ def actor_list(request):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
-def actor_detail(request, pk):
+def actor_detail(request, pk, format=None):
     """
     Retrieve, update or delete an actor
     """
