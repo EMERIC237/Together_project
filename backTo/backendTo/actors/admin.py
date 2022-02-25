@@ -2,4 +2,4 @@ from django.contrib import admin
 from .models import Actor
 
 # Register your models here.
-admin.register()
+admin.site.register(Actor)

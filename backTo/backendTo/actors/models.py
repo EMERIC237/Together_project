@@ -1,4 +1,3 @@
-from enum import unique
 from django.db import models
 from phonenumber_field.modelfields import PhoneNumberField
 from django.utils.translation import gettext_lazy as _
@@ -20,8 +19,7 @@ class Actor(models.Model):
     city = models.CharField(max_length=30)
     state = models.CharField(max_length=3, default='NA')
     zipCode = models.CharField(max_length=10, default='NA')
-    image = models.ImageField(_('image'), blank=True,
-                              null=True, upload_to=upload_to)
+    image = models.ImageField('profiles')
 
     class Meta:
         ordering = ['firstName']
