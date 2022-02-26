@@ -146,5 +146,3 @@ dmypy.json
 cython_debug/
 
 
-#static folder
-media/
