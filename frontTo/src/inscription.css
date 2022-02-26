@@ -1,0 +1,18 @@
+.formContainer {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 5px solid black;
+  padding-left: 0px;
+}
+
+.formDiv {
+  flex: 1;
+  padding: 30px;
+}
+
+.imgContainer{
+  max-width: 300px;
+  min-height: 30px;
+  margin: 0 auto;
+}
