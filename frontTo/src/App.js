@@ -2,7 +2,7 @@ import Home from "./Home";
 import Navigation from "./Navigation";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Inscription from "./Inscription";
-
+import Members from "./Members";
 
 function App() {
   return (
@@ -16,7 +16,8 @@ function App() {
         </h2>
         <Navigation />
         <Routes>
-          <Route path="/" element={<Home />} exact />
+          <Route path="/home" element={<Home />} exact />
+          <Route path="/members" element={<Members />} exact />
           <Route path="/inscription" element={<Inscription />} exact />
         </Routes>
       </div>

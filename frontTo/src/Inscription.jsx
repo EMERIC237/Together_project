@@ -1,6 +1,6 @@
 import axios from "axios";
-import React, { useState, useEffect } from "react";
-import { Form, Button, Row, Col, InputGroup, Image } from "react-bootstrap";
+import React, { useState } from "react";
+import { Form, Button, InputGroup, Image } from "react-bootstrap";
 import "./inscription.css";
 
 function Inscription() {

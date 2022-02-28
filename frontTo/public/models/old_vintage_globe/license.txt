@@ -1,0 +1,11 @@
+Model Information:
+* title:	Old Vintage Globe
+* source:	https://sketchfab.com/3d-models/old-vintage-globe-316a29daefe9450e89c11ecdca132020
+* author:	Théo A (https://sketchfab.com/lazygraph)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Old Vintage Globe" (https://sketchfab.com/3d-models/old-vintage-globe-316a29daefe9450e89c11ecdca132020) by Théo A (https://sketchfab.com/lazygraph) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
