@@ -1,6 +1,7 @@
-.navStyle{
-    justify-content: end;
-    border-style: dotted dashed solid double;
-    border-color: blue;
-
+.navStyle {
+  justify-content: end;
+  border-style: dotted dashed solid double;
+  border-color: blue;
+  top: 0px;
+  z-index: 1;
 }

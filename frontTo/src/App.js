@@ -7,20 +7,12 @@ import Members from "./Members";
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex-1">
-        <h3 className="m-3 d-flex justify-content-center">
-          Welcome to our platform, we share, we learn, we grow
-        </h3>
-        <h2>
-          Click here to register <Link to="/inscription">here</Link>
-        </h2>
-        <Navigation />
-        <Routes>
-          <Route path="/home" element={<Home />} exact />
-          <Route path="/members" element={<Members />} exact />
-          <Route path="/inscription" element={<Inscription />} exact />
-        </Routes>
-      </div>
+      <Navigation />
+      <Routes className="page">
+        <Route path="/home" element={<Home />} exact />
+        <Route path="/members" element={<Members />} exact />
+        <Route path="/inscription" element={<Inscription />} exact />
+      </Routes>
     </BrowserRouter>
   );
 }

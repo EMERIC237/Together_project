@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import CustomTable from "./components/CustomTable";
+import './members.css'
 
 function Members() {
   const [rows, setRows] = useState([]);
@@ -29,7 +30,7 @@ function Members() {
     getMembersData();
   }, []);
   return (
-    <div>
+    <div className="memberContainer">
       <section>
         <div>Here is a list of our lovely members</div>
       </section>
