@@ -14,8 +14,7 @@ class Actor(models.Model):
     lastName = models.CharField(max_length=50)
     userName = models.CharField(max_length=30, default='NA')
     email = models.EmailField(max_length=254)
-    tel = PhoneNumberField(_("phone number"), null=False,
-                           blank=False, unique=True)
+    tel = PhoneNumberField()
     city = models.CharField(max_length=30)
     state = models.CharField(max_length=3, default='NA')
     zipCode = models.CharField(max_length=10, default='NA')
