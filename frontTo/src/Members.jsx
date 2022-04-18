@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import CustomTable from "./components/CustomTable";
-import './members.css'
+import "./members.css";
 
 function Members() {
   const [rows, setRows] = useState([]);
@@ -17,7 +17,15 @@ function Members() {
           let obj = {};
           obj.accessor = value;
           obj.label = value.charAt(0).toUpperCase() + value.slice(1);
-          columObj.push(obj);
+          if (
+            value !== "memberId" &&
+            value !== "lastName" &&
+            value !== "tel" &&
+            value !== "zipCode" &&
+            value !== "image"
+          ) {
+            columObj.push(obj);
+          }
         });
         columObj = columObj.slice(1);
         setRows(res.data);
