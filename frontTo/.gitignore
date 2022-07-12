@@ -25,6 +25,9 @@ yarn-error.log*
 # vscode
 .vscode
 .vscode-test
+.history/
+.history/*
 .history
+.history-test
 /.history
 
